@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Chewy);
 
 html {
     min-height: 100%
@@ -15,24 +15,24 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1088fe', endColorstr='#6800d1',GradientType=0 ); /* IE6-9 */
 
 	color: #FF6A00;
-	font-family: 'Abel', Helvetica, sans-serif;
+	font-family: 'Chewy', Helvetica, sans-serif;
 }
 
 h3{
 	color: #FF6A00;
-	font-family: 'Abel', Helvetica, sans-serif;
+	font-family: 'Chewy', Helvetica, sans-serif;
 }
 
 .gamesList{
     text-align:center;
     
-    border:1px solid #666;
+    border:0px solid #666;
 }
 
 .icons{
     display:inline-block;
-    margin:5px 20px;
+    margin:5px 10px;
     padding:5px;
     
-    border:1px solid #CCC;
+    border:0px solid #CCC;
 }
