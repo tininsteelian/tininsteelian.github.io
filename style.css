@@ -7,4 +7,12 @@ body{
 	background: -ms-linear-gradient(top,  #1088fe 0%,#1581fe 4%,#1580fb 6%,#187cfb 8%,#216ef7 18%,#206ff6 19%,#2667f4 24%,#2568f3 24%,#2c5bef 33%,#2f59f0 34%,#6800d1 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #1088fe 0%,#1581fe 4%,#1580fb 6%,#187cfb 8%,#216ef7 18%,#206ff6 19%,#2667f4 24%,#2568f3 24%,#2c5bef 33%,#2f59f0 34%,#6800d1 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1088fe', endColorstr='#6800d1',GradientType=0 ); /* IE6-9 */
+
+	color: #FF6A00;
+	font-family: Helvetica, sans-serif;
+}
+
+h3{
+	color: #FF6A00;
+	font-family: Helvetica, sans-serif;
 }
