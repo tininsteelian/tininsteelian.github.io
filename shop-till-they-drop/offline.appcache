@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1429475656
+#1429564654
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -13,6 +13,26 @@ images/bean-sheet0.png
 images/play-sheet0.png
 images/help-sheet0.png
 images/tooltip-sheet0.png
+images/beancan-sheet0.png
+images/eggcarton-sheet0.png
+images/itemspawn-sheet0.png
+images/baguette-sheet0.png
+images/baguette-sheet1.png
+images/baguette-sheet2.png
+media/baguettehit.m4a
+media/baguettehit.ogg
+media/beanhit.m4a
+media/beanhit.ogg
+media/beanthrow.m4a
+media/beanthrow.ogg
+media/egghit.m4a
+media/egghit.ogg
+media/eggthrow.m4a
+media/eggthrow.ogg
+media/getitem.m4a
+media/getitem.ogg
+media/baguetteswing.m4a
+media/baguetteswing.ogg
 icon-16.png
 icon-32.png
 icon-114.png
