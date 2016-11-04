@@ -123,7 +123,12 @@ p {
 	    window.addEventListener("load", windowLoaded, false);
 	    function windowLoaded()
 	    {
-		    // Calls the runtime
+		    // Size the canvas to fill the browser viewport.
+			jQuery(window).resize(function() {
+				cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
+			});
+			
+			// Calls the runtime
 		    // First parameter : name of the canvas element
 		    // Second parameter : path to the cch file. Images and sounds must lay beside this file
 		    new Runtime("MMFCanvas", "resources/EverydayStackerV18HTML5.cch");
