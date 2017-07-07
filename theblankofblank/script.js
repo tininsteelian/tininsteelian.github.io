@@ -1,6 +1,7 @@
 var numCorp = Math.floor(Math.random() * 322);
 var numNoun = Math.floor(Math.random() * 4553);
 console.log(numCorp);
+console.log(numCorp);
 
 function readTextFile(file)
 {
