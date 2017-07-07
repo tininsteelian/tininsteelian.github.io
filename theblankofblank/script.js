@@ -21,11 +21,12 @@ function readTextFile(file)
 }
 
 var corpsFile = readTextFile('corporations.txt');
+console.log(corpsFile);
 var nounsFile = readTextFile('nouns.txt');
+console.log(nounsFile);
 
 var corpsArray = corpsFile.split('\n');
 console.log(corpsArray);
-
 var nounsArray = nounsFile.split('\n');
 console.log(nounsArray);
 
