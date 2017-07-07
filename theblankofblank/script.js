@@ -1,13 +1,9 @@
-var numCorp = Math.floor(Math.random() * 322);
+var numCorp = Math.floor(Math.random() * 319);
 var numNoun = Math.floor(Math.random() * 4553);
 console.log(numCorp);
-console.log(numCorp);
-console.log(numCorp);
+console.log(numNoun);
 
 var corpsFile = '
-1-800-FLOWERS.COM
-3M
-7-Eleven
 ABC
 Abbott Laboratories
 Accenture
@@ -60,7 +56,7 @@ Blackwater USA
 Boeing
 BP
 Brillstein Security Group
-Brinker International (Chili's Grill & Bar)
+Brinker International (Chilis Grill & Bar)
 Bristol-Myers Squibb
 British Airways
 British American Tobacco
@@ -84,7 +80,7 @@ Circuit City
 Clear Channel Communications
 Clorox
 Coca-Cola Company
-Coeur d'Alene Mines Corporation
+Coeur dAlene Mines Corporation
 Comcast Corporation
 CompUSA
 Computer Sciences Corporation
@@ -105,7 +101,7 @@ Diebold Election Systems
 Diebold Inc.
 DIRECTV
 Dole
-Domino's Pizza
+Dominos Pizza
 Dow Chemical Company
 Dow Jones & Company
 Duke Energy
@@ -194,7 +190,7 @@ Liberty Corporation
 Limited Brands
 Liz Claiborne Inc
 Lockheed Martin
-Macy's
+Macys
 Manpower
 ManTech International Corporation
 Marathon
@@ -204,7 +200,7 @@ Masco
 MasterCard
 Match.com
 Matrixx Initiatives
-McDonald's
+McDonalds
 The McGraw-Hill Companies
 Merck
 Merrill Lynch
@@ -310,7 +306,7 @@ Valero
 VaxGen
 Verizon Communications
 Viacom
-Victoria's Secret
+Victorias Secret
 Viking River Cruises
 Vinnell Corporation
 Wachovia
@@ -321,7 +317,7 @@ The Walt Disney Company
 Washington Post
 WellPoint
 Wells Fargo
-Wendy's
+Wendys
 Westinghouse Electric Corporation
 Weyerhaeuser
 Whirlpool
@@ -4347,7 +4343,7 @@ talk
 tam
 tambour
 tambourine
-tam-o'-shanter
+tam-o-shanter
 tandem
 tangerine
 tank
