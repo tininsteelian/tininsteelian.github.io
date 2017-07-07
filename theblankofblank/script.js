@@ -2,8 +2,9 @@ var numCorp = Math.floor(Math.random() * 319);
 var numNoun = Math.floor(Math.random() * 4553);
 console.log(numCorp);
 console.log(numNoun);
+console.log("5");
 
-var corpsFile = '
+var corpsFile = "
 ABC
 Abbott Laboratories
 Accenture
@@ -324,9 +325,9 @@ Whirlpool
 Wyeth
 YukosSibneft Oil Company
 YUM! Brands
-'
+"
 
-var nounsFile = '
+var nounsFile = "
 aardvark
 abacus
 abbey
@@ -4881,7 +4882,7 @@ zoologist
 zoology
 zoot-suit
 zucchini
-'
+"
 
 var corpsArray = corpsFile.split('\n');
 console.log(corpsArray);
