@@ -63,8 +63,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Tinzone Games",
+        "meta_descr": "Tinzone Games homepage.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
