@@ -1,0 +1,32 @@
+﻿{
+	"version": 1562452153,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/ground-sheet0.png",
+		"images/camera-sheet0.png",
+		"images/obj-sheet0.png",
+		"images/trafficbarrier-sheet0.png",
+		"images/midkiffaries_construction_cone-sheet0.png",
+		"images/obj2-sheet0.png",
+		"images/obj3-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/obj4-sheet0.png",
+		"images/fashboard-sheet0.png",
+		"images/drivingwheel-sheet0.png",
+		"media/151624__qubodup__clank-car-crash-collision.m4a",
+		"media/151624__qubodup__clank-car-crash-collision.ogg",
+		"media/242740__marlonhj__engine.m4a",
+		"media/242740__marlonhj__engine.ogg",
+		"media/325805__wagna__collect.m4a",
+		"media/325805__wagna__collect.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
