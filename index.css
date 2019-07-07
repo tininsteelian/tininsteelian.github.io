@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html {
+    min-height: 100%
+}
+
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6a00+0,ff9d00+100 */
+	background: #ff6a00; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff6a00 0%, #ff9d00 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff6a00 0%,#ff9d00 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff6a00 0%,#ff9d00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6a00', endColorstr='#ff9d00',GradientType=0 ); /* IE6-9 */
+
+	color: #FFFFFF;
+	font-family: 'Lato', Helvetica, sans-serif;
+	
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.intro {
+    text-align:center; 
+	margin: auto;
+	width: 600px;
+	height: 378px;
+	border: 0px solid #000000;
+	padding: 10px;
+}
+
+.linkList {
+    text-align:center;   
+    border:0px solid #666;	
+	text-shadow: 3px 3px #000000;
+	font-size: 36px
+}
+
+.linkList2 {
+    text-align:center;   
+    border:0px solid #666;	
+	text-shadow: 2px 2px #000000;
+	font-size: 28px
+}
+
+.link {
+    display:inline-block;
+    margin:5px 15px;
+    padding:0px;
+    border:0px solid #CCC;	
+}
+
+a {
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+h3 {
+	text-shadow: 2px 2px #000000;
+}
+
+hr {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 8px;
+	background-color:#000000;
+	border: 0 none;
+}
