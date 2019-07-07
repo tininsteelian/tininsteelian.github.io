@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 html {
-    min-height: 100%
+	min-height: 100%
 }
 
 body{
@@ -17,13 +17,22 @@ body{
 	color: #FFFFFF;
 	font-family: 'Lato', Helvetica, sans-serif;
 }
+@media screen and (max-width: 1183px) {
+	.game:empty {
+		display: none;
+	}
+	/* To keep this looking like a table, an empty div may be placed to make the
+	 * # of list items even. However, when on a smaller screen with 1 column,
+	 * the empty div is still shown. This hides it in a 1 column screen.
+	 */
+}
 
 .icon {
 	float: left;
 	display: inline-block;
-    margin: 0px 0px;
+	margin: 0px 0px;
 	margin-right: 16px;
-    border:0px solid #CCC;
+	border:0px solid #CCC;
 	vertical-align:top;
 }
 
@@ -31,7 +40,7 @@ body{
 	text-align: left;
 	border: 0px solid #000000;
 	display: inline-block;
-    overflow: auto;
+	overflow: auto;
 	width: 566px;
 	height: 232px;
 	margin: 0px 8px;
@@ -117,14 +126,14 @@ h4 {
 }
 
 a {
-    color: #FFFFFF;
+	color: #FFFFFF;
 	font-weight: bold;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-    color: #DDDDDD;
-    text-decoration: none;
+	color: #DDDDDD;
+	text-decoration: none;
 }
 
 p {
