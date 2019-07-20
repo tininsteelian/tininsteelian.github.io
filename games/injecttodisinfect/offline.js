@@ -1,0 +1,33 @@
+﻿{
+	"version": 1563658311,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/plate-sheet0.png",
+		"images/steak-sheet0.png",
+		"images/flames-sheet0.png",
+		"images/injector-sheet0.png",
+		"images/person-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/person2-sheet0.png",
+		"images/particles.png",
+		"media/blip01.m4a",
+		"media/boom2.m4a",
+		"media/dontdoth.m4a",
+		"media/dontdoth.ogg",
+		"media/glass03.m4a",
+		"media/great3.m4a",
+		"media/blip01.ogg",
+		"media/boom2.ogg",
+		"media/glass03.ogg",
+		"media/great3.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
