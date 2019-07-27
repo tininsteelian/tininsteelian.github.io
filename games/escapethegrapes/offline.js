@@ -1,0 +1,31 @@
+﻿{
+	"version": 1564263770,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/sprite-sheet0.png",
+		"images/sprite2-sheet0.png",
+		"images/sprite3-sheet0.png",
+		"images/sprite4-sheet0.png",
+		"images/sprite5-sheet0.png",
+		"images/sprite6-sheet0.png",
+		"images/sprite7-sheet0.png",
+		"media/144885__princess6537__woof.m4a",
+		"media/144885__princess6537__woof.ogg",
+		"media/176798__yummie__comic-lick.m4a",
+		"media/176798__yummie__comic-lick.ogg",
+		"media/77525__superex1110__door-bump-1.m4a",
+		"media/77525__superex1110__door-bump-1.ogg",
+		"media/89532__cgeffex__slow-whoop-bubble-pop1.m4a",
+		"media/89532__cgeffex__slow-whoop-bubble-pop1.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png",
+		"adapter.js"
+	]
+}
