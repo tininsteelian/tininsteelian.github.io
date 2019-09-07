@@ -1,0 +1,32 @@
+﻿{
+	"version": 1567892351,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/tombody-sheet0.png",
+		"images/tombody-sheet1.png",
+		"images/tomface-sheet0.png",
+		"images/tomface-sheet1.png",
+		"images/tomlegs-sheet0.png",
+		"images/tomlegs-sheet1.png",
+		"images/tomlegs-sheet2.png",
+		"images/objshadtom-sheet0.png",
+		"images/foodbutton-sheet0.png",
+		"images/food-sheet0.png",
+		"images/food-sheet1.png",
+		"images/backgroundarcade-sheet0.png",
+		"images/colorbutton-sheet0.png",
+		"images/blueblock-sheet0.png",
+		"images/blockbutton-sheet0.png",
+		"images/backgroundbutton-sheet0.png",
+		"images/sprite-sheet0.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
