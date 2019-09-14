@@ -1,0 +1,32 @@
+﻿{
+	"version": 1568496267,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/background-sheet0.png",
+		"images/halloweenbouncehouse-sheet0.png",
+		"images/halloween1_-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/sprite-sheet1.png",
+		"images/sprite2-sheet0.png",
+		"images/sprite2-sheet1.png",
+		"images/sprite3-sheet0.png",
+		"images/sprite4-sheet0.png",
+		"media/121587__xtraplex__clack01.m4a",
+		"media/121587__xtraplex__clack01.ogg",
+		"media/456255__skkreativ__laughing-teen-girl-skkreativ.m4a",
+		"media/456255__skkreativ__laughing-teen-girl-skkreativ.ogg",
+		"media/169752__robinhood76__03797-ghosts-fly-up.m4a",
+		"media/169752__robinhood76__03797-ghosts-fly-up.ogg",
+		"media/202230__deraj__pop-sound.m4a",
+		"media/202230__deraj__pop-sound.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
