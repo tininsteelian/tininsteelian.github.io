@@ -28,18 +28,7 @@
   .navbar-dropdown .mbr-iconfont + .navbar-caption {
     vertical-align: -1px; }
   .navbar-dropdown.navbar-fixed-top {
-    position: fixed; /* MSIE doesn't support sticky, best to use fixed. */
-    position: sticky; }
-  .navbar-dropdown.navbar-fixed-top.navbar-short {
-    position: fixed;
-    /* The reason for this is because when the navbar shrinks on scrolling down,
-     * it will disappear if it is using sticky due to some bug in the generator.
-     * (I've never seen position: sticky; cause this before.)
-     * The reason to use sticky is because with fixed navbar at full-height
-     * (not .navbar-short), the "Make those tacos!" is obscured at screen sizes
-     * below 1200 px.
-     * This ensures no obscuring of text on smaller screens and that the navbar
-     * won't disappear when scrolling down. */ }
+    position: fixed; }
   .navbar-dropdown .navbar-brand span {
     vertical-align: -4px; }
   .navbar-dropdown.bg-color.transparent {

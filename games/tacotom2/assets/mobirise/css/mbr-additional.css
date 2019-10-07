@@ -1184,17 +1184,6 @@ pre {
     padding-right: 0;
     padding-left: 0;
   }
-  .navbar-dropdown .nav-item.hide-mobile {
-    visibility: hidden;
-    /* Prevent invisible yet accidentally clickable links the in dropdown menu.
-     * I use "visibility: hidden" instead of "display: none" because it retains
-     * the spacing while effectively deleting the link, rather than making the
-     * dropdown menu feel more cramped.
-     */
-  }
-  .navbar-dropdown .nav-item.remove-mobile {
-    display: none;
-  }
 }
 @media (min-width: 992px) {
   .navbar-toggleable-md {
