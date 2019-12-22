@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 html {
   min-height: 100%
@@ -14,7 +14,7 @@ body{
 
   color: #FFFFFF;
   
-  font-family: "Viga", Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
 
   max-width: 100%;
   overflow-x: hidden;

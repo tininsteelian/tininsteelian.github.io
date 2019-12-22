@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 html {
     min-height: 100%
@@ -13,7 +13,7 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
 
 	color: #FFFFFF;
-	font-family: "Viga", Helvetica, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
 	
 	max-width: 100%;
 	overflow-x: hidden; 	
