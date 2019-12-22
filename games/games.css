@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+head {
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato&amp;lang=en" />
+}
 
 html {
 	min-height: 100%

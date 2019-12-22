@@ -1,8 +1,8 @@
 body{
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c14fc1+0,4b3558+100 */
-	background: #c14fc1; /* Old browsers */
-	background: -moz-linear-gradient(top,  #c14fc1 0%, #4b3558 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #c14fc1 0%,#4b3558 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #c14fc1 0%,#4b3558 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c14fc1', endColorstr='#4b3558',GradientType=0 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7007f+0,d200e5+100 */
+background: #f7007f; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7007f 0%, #d200e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7007f 0%,#d200e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7007f 0%,#d200e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7007f', endColorstr='#d200e5',GradientType=0 ); /* IE6-9 */
 }
