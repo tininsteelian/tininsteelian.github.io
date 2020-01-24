@@ -73,6 +73,17 @@ body{
 	line-height: 0px;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { /* For Safari (and chrome) */
+    .game {
+	  overflow: scroll;
+	}
+	.game::-webkit-scrollbar {
+	  -webkit-appearance: none;
+	  width: 0;
+	  height: 0;
+	}
+}
+
 @media screen and (max-width: 600px) { /* For mobile devices */
   .game {
     width: 95%;
