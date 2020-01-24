@@ -85,7 +85,7 @@ body{
   }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) { /* For Safari (and chrome) */
+@supports (-webkit-overflow-scrolling: touch) { /* for ios */
     .game {
 	  overflow: scroll;
 	}
