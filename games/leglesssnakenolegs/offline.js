@@ -1,0 +1,30 @@
+﻿{
+	"version": 1583616773,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/tailpiece-sheet0.png",
+		"images/snake-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/snakeleg-sheet0.png",
+		"images/item-sheet0.png",
+		"images/item-sheet1.png",
+		"images/background-sheet0.png",
+		"media/foot.m4a",
+		"media/foot.ogg",
+		"media/ouch.m4a",
+		"media/ouch.ogg",
+		"media/ow.m4a",
+		"media/ow.ogg",
+		"media/yum.m4a",
+		"media/yum.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
