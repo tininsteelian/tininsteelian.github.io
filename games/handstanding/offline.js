@@ -1,0 +1,29 @@
+﻿{
+	"version": 1588453467,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/clock_-sheet0.png",
+		"images/clock_2-sheet0.png",
+		"images/clock_3-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/sprite2-sheet0.png",
+		"images/sprite3-sheet0.png",
+		"media/bump.m4a",
+		"media/bump.ogg",
+		"media/crash.m4a",
+		"media/crash.ogg",
+		"media/jump.m4a",
+		"media/jump.ogg",
+		"media/tick.m4a",
+		"media/tick.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
