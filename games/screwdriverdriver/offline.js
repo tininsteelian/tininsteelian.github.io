@@ -1,0 +1,30 @@
+﻿{
+	"version": 1596920358,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/lemons-sheet0.png",
+		"images/screw-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/sprite2-sheet0.png",
+		"images/sprite3-sheet0.png",
+		"media/death.m4a",
+		"media/death.ogg",
+		"media/hit.m4a",
+		"media/hit.ogg",
+		"media/level.m4a",
+		"media/level.ogg",
+		"media/move.m4a",
+		"media/move.ogg",
+		"media/turn.m4a",
+		"media/turn.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
