@@ -1,0 +1,32 @@
+﻿{
+	"version": 1598130889,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/background-sheet0.png",
+		"images/boxcenter-sheet0.png",
+		"images/boxedge-sheet0.png",
+		"images/piece-sheet0.png",
+		"images/piece-sheet1.png",
+		"images/piece-sheet2.png",
+		"images/sprite-sheet0.png",
+		"media/click.m4a",
+		"media/click.ogg",
+		"media/gameover.m4a",
+		"media/gameover.ogg",
+		"media/oops.m4a",
+		"media/oops.ogg",
+		"media/place.m4a",
+		"media/place.ogg",
+		"media/confirm.m4a",
+		"media/confirm.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
