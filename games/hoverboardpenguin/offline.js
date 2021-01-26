@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1609778000,
+	"version": 1611670910,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -17,7 +17,6 @@
 		"images/backgroundworld1-sheet0.png",
 		"media/tinhit1.m4a",
 		"media/tinhit1.ogg",
-		"media/bedtime_tune_full_mix_demo.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
