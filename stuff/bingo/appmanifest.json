@@ -1,6 +1,6 @@
 ﻿{
-	"name": "New project",
-	"short_name": "New project",
+	"name": "Tin's Cool Bingo Board",
+	"short_name": "Tin's Cool Bingo Board",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
