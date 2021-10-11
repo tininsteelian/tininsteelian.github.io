@@ -1,0 +1,226 @@
+
+
+html {
+	min-height: 100%
+}
+
+body{
+	background: #ffff00; /* Old browsers */
+
+
+	color: #000000;
+	font-family: 'Alatsi', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1183px) {
+	.game:empty {
+		display: none;
+	}
+	/* To keep this looking like a table, an empty div may be placed to make the
+	 * # of list items even. However, when on a smaller screen with 1 column,
+	 * the empty div is still shown. This hides it in a 1 column screen.
+	 */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.icon {
+	float: left;
+	display: inline-block;
+	margin: 0px 0px;
+	margin-right: 16px;
+	border:0px solid #CCC;
+	vertical-align:top;
+}
+
+.icon img {
+  border:0px;
+  width: 200px;
+  height: 200px;
+    border-radius: 24px;
+	border: 4px solid #000000;
+	box-shadow: 4px 4px #7f7f00;
+}
+
+@media screen and (max-width: 600px) { /* For mobile devices */
+  .icon {
+    width: 25%;
+    margin-bottom: 10px;
+  }
+  
+  .icon img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.game {
+	text-align: left;
+	border: 0px solid #ffff00;
+	display: inline-block;
+	overflow: auto;
+	width: 566px;
+	height: 232px;
+	margin: 0px 8px;
+	line-height: 0px;
+}
+
+@media screen and (max-width: 600px) { /* For mobile devices */
+  .game {
+    width: 95%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .gameList {
+    width: 100%;
+  }
+}
+
+@supports (-webkit-overflow-scrolling: touch) { /* for ios */
+    .game {
+	  overflow: scroll;
+	}
+	.game::-webkit-scrollbar {
+	  -webkit-appearance: none;
+	  width: 0;
+	  height: 0;
+	}
+}
+
+.gameBig {
+	font-size: 26px;
+	text-shadow: 2.5px 2.5px #ffff00;
+	
+	text-align: center;
+	border: 0px solid #ffff00;
+	display: inline-block;
+	overflow: auto;
+	width: 566px;
+	height: 450px;
+	margin: 0px 8px;
+	line-height: 26px;
+}
+
+@media screen and (max-width: 500px) {
+  .gameBig {
+    /* On smaller screens, some text may wrap, causing overlapping text.
+     * This prevents overlapping text.
+     */
+    line-height: 26px;
+  }
+}
+
+.gameList {
+	text-align: center;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.link {
+	border-bottom: 4px solid currentColor;
+	line-height: 18px;
+	text-shadow: 1.5px 1.5px #ffff00;
+	float: left;
+	
+}
+
+.linkBig {
+	border-bottom: 4px solid currentColor;
+	float:initial;
+	display: inline-block;
+	font-size: 22px;
+	text-shadow: 2px 2px #ffff00;
+}
+
+.link2 {
+	border-bottom: 4px solid currentColor;
+	display:inline-block;
+}
+
+.link3 {
+	display:inline;
+}
+
+.linksAtBottom {
+	display:inline;
+	text-align:center;
+}
+
+.logo {
+  border-width: 0px;
+  width: 256px;
+  height: 128px;
+}
+
+.text {
+	margin-left: 224px;
+	line-height: 18px;
+	text-shadow: 1.5px 1.5px #ffff00;
+}
+
+@media screen and (max-width: 600px) { /* For mobile devices */
+  .text {
+    margin-left: 0;
+  }
+}
+
+hr {
+	margin: 0px 10px;
+	height: 8px;
+	background-color:#000000;
+	border: 0 none;
+	max-width: 1200px;
+	margin: auto;
+}
+
+h1 {
+	text-shadow: 3px 3px #ffff00;
+	line-height: 32px;
+}
+
+h2 {
+	text-shadow: 2.5px 2.5px #ffff00;
+	line-height: 26px;
+	margin: 0px 0px;
+}
+
+h3 {
+	text-shadow: 2px 2px #ffff00;
+	line-height: 22px;
+}
+
+h4 {
+	text-shadow: 1.5px 1.5px #ffff00;
+	line-height: 0px;
+}
+
+a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7f7f00;
+	text-decoration: none;
+}
+
+img.tt2 {
+  border: 0;
+}
+
+@media screen and (max-width: 600px) { /* For mobile devices */
+  img.tt2 {
+    width: 100%;
+  }
+}
+
+p {
+	line-height: -8px;
+}

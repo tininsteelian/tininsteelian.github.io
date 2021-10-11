@@ -3,19 +3,14 @@ html {
 }
 
 body{
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
-	background: #ff3019; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+	background: #ffff00; /* Old browsers */
 
-	color: #FFFFFF;
-	font-family: 'Heebo', Helvetica, sans-serif;
+	color: #000000;
+	font-family: 'Alatsi', Helvetica, sans-serif;
 	
 	max-width: 100%;
 	overflow-x: hidden; 	
-	text-shadow: 1.5px 1.5px #000000;
+	text-shadow: 1.5px 1.5px #ffff00;
 	line-height: 28px;
 }
 
@@ -31,17 +26,41 @@ body{
 	display:inline;
 }
 
+.intro {
+	max-width: 710px;
+	margin: auto;
+}
+
 .bullets {
 	max-width: 1168px;
 	margin: auto;
 }
 
+.picture {
+	height: 256px;
+	width: 256px;
+	float: left;
+	display: inline;
+	padding-right: 32px;
+}
+
+.picture img {
+  border:0px;
+  width: 256px;
+  height: 256px;
+    border-radius: 24px;
+	border: 4px solid #000000;
+	box-shadow: 4px 4px #7f7f00;
+}
+
 h1 {
-	text-shadow: 3px 3px #000000;
+	text-shadow: 3px 3px #ffff00;
+
 }
 
 h3 {
-	text-shadow: 2px 2px #000000;
+	text-shadow: 2px 2px #ffff00;
+
 }
 
 hr {
@@ -54,12 +73,12 @@ hr {
 }
 
 a {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 	border-bottom: 2px solid currentColor;
 }
 
 a:hover {
-    color: #DDDDDD;
+    color: #7f7f00;
     text-decoration: none;
 }
