@@ -5,10 +5,16 @@ html {
 }
 
 body{
-	background: #ffff00; /* Old browsers */
+	background: #1088fe; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1088fe 0%, #1581fe 4%, #1580fb 6%, #187cfb 8%, #216ef7 18%, #206ff6 19%, #2667f4 24%, #2568f3 24%, #2c5bef 33%, #2f59f0 34%, #6800d1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1088fe), color-stop(4%,#1581fe), color-stop(6%,#1580fb), color-stop(8%,#187cfb), color-stop(18%,#216ef7), color-stop(19%,#206ff6), color-stop(24%,#2667f4), color-stop(24%,#2568f3), color-stop(33%,#2c5bef), color-stop(34%,#2f59f0), color-stop(100%,#6800d1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1088fe 0%,#1581fe 4%,#1580fb 6%,#187cfb 8%,#216ef7 18%,#206ff6 19%,#2667f4 24%,#2568f3 24%,#2c5bef 33%,#2f59f0 34%,#6800d1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1088fe 0%,#1581fe 4%,#1580fb 6%,#187cfb 8%,#216ef7 18%,#206ff6 19%,#2667f4 24%,#2568f3 24%,#2c5bef 33%,#2f59f0 34%,#6800d1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1088fe 0%,#1581fe 4%,#1580fb 6%,#187cfb 8%,#216ef7 18%,#206ff6 19%,#2667f4 24%,#2568f3 24%,#2c5bef 33%,#2f59f0 34%,#6800d1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1088fe 0%,#1581fe 4%,#1580fb 6%,#187cfb 8%,#216ef7 18%,#206ff6 19%,#2667f4 24%,#2568f3 24%,#2c5bef 33%,#2f59f0 34%,#6800d1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1088fe', endColorstr='#6800d1',GradientType=0 ); /* IE6-9 */
 
-
-	color: #000000;
+	color: #FFFFFF;
 	font-family: 'Alatsi', Helvetica, sans-serif;
 }
 
@@ -92,7 +98,7 @@ body{
 
 .gameBig {
 	font-size: 26px;
-	text-shadow: 2.5px 2.5px #ffff00;
+	text-shadow: 2.5px 2.5px #000000;
 	
 	text-align: center;
 	border: 0px solid #ffff00;
@@ -122,7 +128,7 @@ body{
 .link {
 	border-bottom: 4px solid currentColor;
 	line-height: 18px;
-	text-shadow: 1.5px 1.5px #ffff00;
+	text-shadow: 1.5px 1.5px #000000;
 	float: left;
 	
 }
@@ -132,7 +138,7 @@ body{
 	float:initial;
 	display: inline-block;
 	font-size: 22px;
-	text-shadow: 2px 2px #ffff00;
+	text-shadow: 2px 2px #000000;
 }
 
 .link2 {
@@ -158,7 +164,7 @@ body{
 .text {
 	margin-left: 232px;
 	line-height: 18px;
-	text-shadow: 1.5px 1.5px #ffff00;
+	text-shadow: 1.5px 1.5px #000000;
 }
 
 @media screen and (max-width: 600px) { /* For mobile devices */
@@ -177,35 +183,35 @@ hr {
 }
 
 h1 {
-	text-shadow: 3px 3px #ffff00;
+	text-shadow: 3px 3px #000000;
 	line-height: 32px;
 	margin: 0px 0px;
 }
 
 h2 {
-	text-shadow: 2.5px 2.5px #ffff00;
+	text-shadow: 2.5px 2.5px #000000;
 	line-height: 26px;
 	margin: 0px 0px;
 }
 
 h3 {
-	text-shadow: 2px 2px #ffff00;
+	text-shadow: 2px 2px #000000;
 	line-height: 22px;
 }
 
 h4 {
-	text-shadow: 1.5px 1.5px #ffff00;
+	text-shadow: 1.5px 1.5px #000000;
 	line-height: 0px;
 }
 
 a {
-	color: #000000;
+	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #7f7f00;
+	color: #999999;
 	text-decoration: none;
 }
 
