@@ -10,7 +10,7 @@ body{
 
   max-width: 100%;
   overflow-x: hidden; 	
-  text-shadow: 1.5px 1.5px #ffff00;
+  text-shadow: 0px 0px #ffff00;
   line-height: 28px;
 }
 
@@ -32,16 +32,16 @@ body{
 }
 
 h1 {
-  text-shadow: 3px 3px #ffff00;
+  text-shadow:03px 0px #ffff00;
 }
 
 h3 {
-  text-shadow: 2px 2px #ffff00;
+  text-shadow: 0px 0px #ffff00;
 }
 
 hr {
   margin: 0px 10px;
-  height: 8px;
+  height: 5px;
   background-color:#000000;
   border: 0 none;
   max-width: 1200px;
@@ -51,10 +51,16 @@ hr {
 a {
   color: #000000;
   text-decoration: none;
-  border-bottom: 2px solid currentColor;
+  border-bottom: 0px solid currentColor;
+  text-decoration: none;
 }
 
 a:hover {
   color: #7f7f00;
-  text-decoration: none;
+  
 }
+
+a.bulletlink {
+	text-decoration:underline;
+}
+

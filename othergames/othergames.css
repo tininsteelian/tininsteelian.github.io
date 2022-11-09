@@ -2,11 +2,11 @@
 
 html {
 	min-height: 100%
+	
 }
 
 body{
 	background: #ffff00; /* Old browsers */
-
 
 	color: #000000;
 	font-family: 'Alatsi', Helvetica, sans-serif;
@@ -123,10 +123,11 @@ body{
 }
 
 .link {
-	border-bottom: 4px solid currentColor;
+	border-bottom: 0px solid currentColor;
 	line-height: 18px;
-	text-shadow: 1.5px 1.5px #ffff00;
+	text-shadow: 0px 0px #ffff00;
 	float: left;
+	text-decoration: underline;
 	
 }
 
@@ -139,7 +140,7 @@ body{
 }
 
 .link2 {
-	border-bottom: 4px solid currentColor;
+	border-bottom: 0px solid currentColor;
 	display:inline-block;
 }
 
@@ -172,7 +173,7 @@ body{
 
 hr {
 	margin: 0px 10px;
-	height: 8px;
+	height: 5px;
 	background-color:#000000;
 	border: 0 none;
 	max-width: 1200px;
@@ -191,7 +192,7 @@ h2 {
 }
 
 h3 {
-	text-shadow: 2px 2px #ffff00;
+	text-shadow: 0px 0px #ffff00;
 	line-height: 22px;
 }
 
