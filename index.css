@@ -84,6 +84,15 @@ body{
   font-size: 28px
 }
 
+.linkList3 {
+  max-width: 800px;
+  margin: auto;
+  text-align:center;   
+  border:0px solid #666;	
+  text-shadow: 2px 2px #ffff00;
+  font-size: 28px
+}
+
 .link {
   display:inline-block;
   margin:5px 0px;
@@ -112,7 +121,7 @@ h3 {
 }
 
 hr {
-  max-width: 1200px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
   height: 5px;
