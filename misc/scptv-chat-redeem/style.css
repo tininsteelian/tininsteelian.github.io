@@ -3,8 +3,8 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 	
-	background: #000000;
-	color: white;
+	background: transparent;
+	color: transparent;
 }
 
 html, body, canvas {
