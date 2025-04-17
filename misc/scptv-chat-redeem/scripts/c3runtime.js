@@ -4133,12 +4133,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Exps.Y,
 		C3.Plugins.SpeechSynthesis.Acts.SpeakText,
 		C3.Plugins.SpeechSynthesis.Cnds.OnSpeechEnded,
-		C3.Plugins.System.Acts.SetBoolVar,
-		C3.Plugins.System.Cnds.CompareBoolVar,
-		C3.Plugins.Sprite.Acts.SetOpacity,
-		C3.Plugins.Sprite.Exps.Opacity,
-		C3.Plugins.Text.Acts.SetOpacity,
-		C3.Plugins.Text.Exps.Opacity
+		C3.Plugins.System.Acts.SetBoolVar
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4331,12 +4326,7 @@ self.C3_ExpressionFuncs = [
 		() => "Google UK English Female",
 		() => 0.9,
 		() => "Google UK English Male",
-		() => 1.3,
-		p => {
-			const n0 = p._GetNode(0);
-			const f1 = p._GetNode(1).GetBoundMethod();
-			return () => (n0.ExpObject() - ((5 * 60) * f1()));
-		}
+		() => 1.3
 ];
 
 
