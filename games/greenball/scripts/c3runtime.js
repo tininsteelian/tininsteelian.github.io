@@ -4165,8 +4165,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetX,
 		C3.Behaviors.Physics.Acts.SetAngularVelocity,
 		C3.Plugins.System.Cnds.CompareVar,
-		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.System.Acts.AddVar,
+		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Exps.random,
 		C3.Plugins.System.Acts.CreateObject,
@@ -4321,24 +4321,24 @@ self.C3_ExpressionFuncs = [
 		() => 240,
 		() => 1000,
 		() => -1000,
+		() => 3,
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => (((-2) * 60) * f0());
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => ((2 * 60) * f0());
+		},
 		() => 100,
 		() => -100,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => (((-0.1) * 120) * f0());
+			return () => (((-0.2) * 60) * f0());
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => ((0.1 * 120) * f0());
-		},
-		() => 3,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => (((-1) * 120) * f0());
-		},
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => ((1 * 120) * f0());
+			return () => ((0.2 * 60) * f0());
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -4361,7 +4361,8 @@ self.C3_ExpressionFuncs = [
 		p => {
 			const n0 = p._GetNode(0);
 			const v1 = p._GetNode(1).GetVar();
-			return () => (n0.ExpObject() + (v1.GetValue() / 10));
+			const f2 = p._GetNode(2).GetBoundMethod();
+			return () => (n0.ExpObject() + (((v1.GetValue() / 5) * 60) * f2()));
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
