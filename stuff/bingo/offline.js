@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1623650696,
+	"version": 1771637839,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -17,6 +17,7 @@
 		"icon-128.png",
 		"icon-256.png",
 		"loading-logo.png",
-		"e3nintendo.txt"
+		"e3nintendo.txt",
+		"xblig_bingo.txt"
 	]
 }
